@@ -27,7 +27,7 @@ public class CalculatorController {
 				
 			} 
 			catch (NumberFormatException ex) {
-				theView.displayErrorMessage("You need to enter 2 Integers");
+				theView.displayErrorMessage("You need to enter two Integers, please");
 			}
 			
 		}
